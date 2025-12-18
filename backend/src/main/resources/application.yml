@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+knife4j:
+  enable: true
+  openapi:
+    title: 脑筋急转弯 API 文档
+    description:
+    # aaa"
+    email: xiaoymin@foxmail.com
+    concat:
+    url: https://docs.xiaominfo.com
+    version: v4.0
+    license: Apache 2.0
+    license-url: https://stackoverflow.com/
+    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: Ai脑筋急转弯
+        api-rule: package
+        api-rule-resources:
+          - com.xyyzhang.ai_brainteaser.controller
+
+ai:
+  apiKey: e3cba0e5-50b4-4538-a9b8-ad77af953fa5
